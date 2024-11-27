@@ -1,8 +1,28 @@
-print("Who Are You?")
-name=input()
-print(f"Nice to meet you {name}")
+result=10>5
+print({result})
+print(type(result))
+print("==================")
+result=10==5
+print({result})
+print("==================")
+result=10<5
+print({result})
+print("==================")
+result=10!=5
+print({result})
 
-name=input("Who Are You?")
-print("Nice to meet you %s"%name)
+print("==================")
+result=10<=5
+print({result})
+print("==================")
+result=10>=5
+print({result})
 
-# input的都是字符串
+print("==================")
+result="Allen"=="allen"
+print({result})
+
+print("==================")
+result="Allen"!="allen"
+print({result})
+

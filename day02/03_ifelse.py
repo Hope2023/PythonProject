@@ -10,5 +10,11 @@ if age>0:
     print(f"你的年纪是{age}")
     if age >= 18:
         print(f"你已经成年了哈")
-    print(f"尚未成年哟")
-print(f"无效年纪")
+    else:
+        print(f"尚未成年哟")
+else:
+    print(f"无效年纪")
+
+
+
+    

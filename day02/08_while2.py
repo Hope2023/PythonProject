@@ -1,32 +1,25 @@
-# 循环100次
-# i=0
-# while i<100:
-#     print(f"i={i}")
-#     i+=1
+days=1
+while days<=100:
+    print(f"今天是第{days}天表白")
+    flower=1
+    while flower<=10:
+        print(f"第{flower}朵玫瑰")
+        flower+=1
+    days+=1
+print(f"第{days-1}天表白成功")
 
 
-# 1-100 求和
-# i = 1
-# total = 0
-# while i < 101:
-#     total += i
-#     i += 1
-# print("total=",total)
+# 输出不换行
+print("Hello ",end='')
+print("World")
 
+print("Hello\tWorld")
 
-import random
-num=random.randint(1,100)
-i=0
-flag=True
-while flag:
-    input_num = int(input("Enter a number: "))
+i=1
+while i<=9:
+    j=1
+    while j<=i:
+        print(f"{i}*{j}={i * j}\t",end='')
+        j+=1
     i+=1
-    if input_num == num:
-        print("Correct!")
-        flag=False
-    else:
-        if input_num > num:
-            print("To high")
-        else:
-            print("To low")
-print(f"总共猜测了{i}次")
+    print("")
