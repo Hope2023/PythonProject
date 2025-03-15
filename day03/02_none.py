@@ -19,3 +19,10 @@ def sayHi(name):
 
 print(sayHi('Allen'))
 print(type(sayHi('Allen')))
+
+
+
+if not say_hello('Allen'):
+    print('true')
+else:
+    print('false')

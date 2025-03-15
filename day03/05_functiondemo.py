@@ -13,7 +13,7 @@ def deposit_2():
     print(f"[存款]成功，您当前余额{totalmoney}")
     main_page()
 
-def width_draw_3():
+def with_draw_3():
     global totalmoney
     print(f"你选择了[取款]，您当前余额{totalmoney}")
     your_withdraw = int(input("请输入取款金额:"))
@@ -41,7 +41,7 @@ def main_page():
     elif your_selection==2:
         deposit_2()
     elif your_selection==3:
-        width_draw_3()
+        with_draw_3()
     elif your_selection==4:
         exit_4()
     else:
