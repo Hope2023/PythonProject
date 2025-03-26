@@ -1,0 +1,9 @@
+def test_func(compute):
+    result = compute(1,2)
+    print(result)
+
+def compute(num1,num2):
+    return num1+num2
+
+
+test_func(compute)
